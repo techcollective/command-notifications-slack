@@ -6,9 +6,11 @@ To run a command as root, either add "sudo" to the function in bashrc, or run co
 
 
 1. EDIT CONFIG.SH
-2. RUN INSTALL.SH
-3. RUN su -c "your-command -w -t -f derp"
-4. RECIEVE CHAT MESSAGE FROM BOT WHEN IT FINISHES.
+2. ADD COMMANDS OFYOUR CHOICE TO bashrc,
+	INCLUDED ALREADY ARE rsync, ddrescue
+3. RUN INSTALL.SH
+4. RUN su -c "your-command -w -t -f derp"
+5. RECIEVE CHAT MESSAGE FROM BOT WHEN IT FINISHES.
 
 
 
