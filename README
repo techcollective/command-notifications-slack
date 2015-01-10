@@ -1,0 +1,14 @@
+### Shop Notifications
+
+This tool will send chat notifications to Slack after completion of any commands you specify!
+Unfortunately, due to limitations of bash/sudo, I think, if the command is run with "sudo", it will not work.
+To run a command as root, either add "sudo" to the function in bashrc, or run command with <su -c "command -f">
+
+
+1. EDIT CONFIG.SH
+2. RUN INSTALL.SH
+3. RUN su -c "your-command -w -t -f derp"
+4. RECIEVE CHAT MESSAGE FROM BOT WHEN IT FINISHES.
+
+
+
